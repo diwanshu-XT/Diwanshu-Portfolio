@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== PRECONNECT ===============-->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!--=============== FONTS ===============-->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+
+  <!--=============== REMIXICON ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Diwanshu Portfolio</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">XT-animations</a>
+
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <i class="ri-close-line nav-close"></i>
+      </div>
+
+      <div class="nav-btns">
+        <i class="ri-sun-line change-theme" id="theme-toggle"></i>
+
+        <div class="nav-toggle">
+          <i class="ri-menu-2-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================================================================== MAIN ================================================================================================-->
+  <main class="main">
+
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-data">
+          <h1 class="home-title">Diwanshu</h1>
+          <h3 class="home-job">
+            I'm
+            <span class="job-scramble role-rotator" aria-label="Editor and Developer">
+              <span class="role-track">
+                <span class="role-word title-gradient">Editor</span>
+                <span class="role-word title-gradient">Developer</span>
+                <span class="role-word title-gradient">Editor</span>
+              </span>
+            </span>
+          </h3>
+
+
+          <p class="home-description">Casting digital spells with EDITS and CODES,
+            A creative editor and developer based in <a href="https://www.google.com/maps/place/Bikaner" target="_blank"
+              class="bikaner-link">Bikaner</a>,
+            I bring ideas to life in the digital realm.
+            Whether it's crafting captivating edits or developing seamless user experiences.
+          </p>
+
+          <a href="#portfolio" class="button">My Works</a>
+        </div>
+
+        <div class="home-img-wrapper">
+          <img src="assets/img/main Profile.webp" alt="" class="home-img">
+        </div>
+
+        <div class="home-social grid">
+          <a href="https://www.instagram.com/diwanshu_xt?igsh=MW13NDFnamt3aDc3ZQ==" target="_blank"
+            class="home-social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+
+          <a href="mailto:diwanshukashyap2004@gmail.com" target="_blank" class="home-social-link">
+            <i class="ri-mail-line"></i>
+          </a>
+
+          <a href="https://wa.me/919460241245" target="_blank" class="home-social-link">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about-container container grid">
+        <div class="about-experience-wrap">
+          <div class="about-experience">
+
+            <!-- VIDEO -->
+            <video class="blob-video" muted loop playsinline preload="none">
+              <source src="assets/Video/BLUB_1.mp4" type="video/mp4">
+            </video>
+
+            <!-- TEXT -->
+            <div class="about-content">
+              <span class="about-no"><count-up>2.8</count-up></span>
+              <h3 class="about-title">Years of <br /> Craft</h3>
+            </div>
+          </div>
+          <span class="about-mobile-hint">Tap to play</span>
+        </div>
+
+        <div>
+          <h2 class="about-description">
+            Over<span class="text-gradient"> 2.8 years of Storytelling and development</span>, I
+            bring concepts to life <span class="text-gradient">through</span>
+            <span class="text-gradient">Creativity</span> and
+            <span class="text-gradient">Tech</span>
+          </h2>
+
+          <a href="assets/pdf/Diwanshu-RESUME.pdf" download="" class="button">
+            Download CV
+          </a>
+        </div>
+
+        <ul class="about-data grid">
+          <li class="about-item">
+            <h3 class="about-item-no"><count-up>1500</count-up>+</h3>
+            <p class="about-details">Projects Completed</p>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-item-no"><count-up>180</count-up>+</h3>
+            <p class="about-details">Happy Clients</p>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-item-no"><count-up>5</count-up></h3>
+            <p class="about-details">Adobe Software skilled</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--=================================================================== SERVICES ===========================================================================================-->
+
+    <section class="services section" id="services">
+      <div class="container">
+
+        <h2 class="section-title reveal">
+          <span class="title-white">What I</span>
+          <span class="title-gradient">Offer</span>
+        </h2>
+
+        <div class="services-container">
+
+          <div class="service-item">
+            <div class="service-card reveal">
+              <img src="assets/img/CRAFT-1.webp">
+            </div>
+            <span class="service-text">Web Development</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-card reveal">
+              <img src="assets/img/craft-2.webp">
+            </div>
+            <span class="service-text">Edit</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-card reveal">
+              <img src="assets/img/craft-3.webp">
+            </div>
+            <span class="service-text">Web Design</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-card reveal">
+              <img src="assets/img/CRAFT-4.webp">
+            </div>
+            <span class="service-text">Motion Graphics</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-card reveal">
+              <img src="assets/img/Craft-5.webp">
+            </div>
+            <span class="service-text">Color Grade</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--=================================================================== SKILLS =========================================================================================-->
+    <section class="skills section" id="skills">
+
+      <div class="container">
+
+        <!-- 🔥 Heading with reveal -->
+        <h2 class="section-title reveal">
+          <span class="title-white">My</span>
+          <span class="title-gradient">Skills</span>
+        </h2>
+
+        <div class="skills-container">
+
+          <!-- 🔥 Editing Card -->
+          <div class="card-wrap reveal">
+            <div class="skill-card">
+              <h3 class="skill-title">Editing</h3>
+
+              <p class="skill-desc">
+                I create engaging video edits with smooth transitions, cinematic color grading,
+                and storytelling techniques that capture attention and improve content quality.
+              </p>
+
+              <div class="skill-list">
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-E/premiere pro.svg" class="skill-icon">
+                    <span>Premiere Pro</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="92"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-E/photoshop.svg" class="skill-icon">
+                    <span>Photoshop</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="43"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-E/after-effects.svg" class="skill-icon">
+                    <span>After Effects</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="68"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-E/lightroom.svg" class="skill-icon">
+                    <span>Lightroom</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="57"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-E/davinci.svg" class="skill-icon">
+                    <span>DaVinci</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="32"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 🔥 Developer Card -->
+          <div class="card-wrap reveal">
+            <div class="skill-card">
+              <h3 class="skill-title">Developer</h3>
+
+              <p class="skill-desc">
+                I build responsive and modern websites with clean UI, smooth animations,
+                and performance-focused development using current technologies.
+              </p>
+
+              <div class="skill-list">
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-D/html-logo.svg" class="skill-icon">
+                    <span>HTML</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="70"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-D/css-logo.svg" class="skill-icon">
+                    <span>CSS</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="72"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-D/javascript-logo.svg" class="skill-icon">
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="28"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-D/tailwind-css-logo.svg" class="skill-icon">
+                    <span>Tailwind</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="68"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-left">
+                    <img src="assets/img/Logos-D/react-logo.svg" class="skill-icon">
+                    <span>React</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-level="57"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--======================================================== (JOURNEY+EDUCATION) EDUCATION ==========================================================================================-->
+
+    <!--=============== TOGGLE SWITCH ===============-->
+
+    <div class="journey-block">
+      <div class="journey-header lift-in">
+
+        <h2 class="journey-title">
+          <span class="title-white">MY</span>
+        </h2>
+
+        <div class="toggle-wrapper">
+          <div class="toggle">
+            <div class="toggle-slider"></div>
+
+            <!-- 🔥 IMPORTANT: data-target must match JS -->
+            <span class="toggle-option active" data-target="journey">Journey</span>
+            <span class="toggle-option" data-target="education">Education</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!--=============== TIMELINE SECTION ===============-->
+
+      <section class="education section" id="education">
+
+        <div class="container">
+
+          <!-- ================= JOURNEY ================= -->
+          <div class="timeline journey-timeline">
+
+            <div class="timeline-line"></div>
+
+            <!-- ITEM 1 -->
+            <div class="timeline-item right reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Started Exploring</h3>
+                <span class="timeline-date">2022</span>
+                <p>Began exploring technology and creative tools with growing curiosity.</p>
+              </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="timeline-item left reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Learning Phase</h3>
+                <span class="timeline-date">2023 - FEB 2024 </span>
+                <p>Started learning development and editing, Started freelancing and building small projects.</p>
+              </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="timeline-item right reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Growth & Practice</h3>
+                <span class="timeline-date">April 2024 – Present</span>
+                <p>Available for Freelancing. I’ve built stronger editing expertise by using several editing platforms.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- ================= EDUCATION ================= -->
+          <div class="timeline education-timeline">
+
+            <div class="timeline-line"></div>
+
+            <!-- ITEM 1 -->
+            <div class="timeline-item right reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Secondary School</h3>
+                <span class="timeline-date">2008 – 2020</span>
+                <p>Completed secondary education at S.S. Convent Secondary School, Bikaner.</p>
+              </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="timeline-item left reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Higher Secondary</h3>
+                <span class="timeline-date">2020 – 2022</span>
+                <p>Higher secondary from SMJT with PCB, focused on core sciences.</p>
+              </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="timeline-item right reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Undergraduate Studies</h3>
+                <span class="timeline-date">2025 – 2028</span>
+                <p>Pursuing BCA at Manipal University Jaipur.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+
+
+    <!--============================================================= PORTFOLIO SECTION ===========================================================================================-->
+
+    <section class="work section" id="portfolio">
+
+      <div class="container">
+
+        <!-- ===== HEADING ===== -->
+        <h2 class="section-title reveal">
+          <span class="title-white">My</span>
+          <span class="title-gradient">Portfolio</span>
+        </h2>
+
+        <!-- ===== FILTER LIST (GLASS FIXED) ===== -->
+        <div class="work-list reveal">
+
+          <!-- 🔥 SLIDER -->
+          <div class="filter-slider"></div>
+
+          <span class="work-item active-work" data-filter="all">All</span>
+          <span class="work-item" data-filter=".edits">Edits</span>
+          <span class="work-item" data-filter=".development">Development</span>
+          <span class="work-item" data-filter=".mographs">Mo-Graphs</span>
+          <span class="work-item" data-filter=".others">Others</span>
+
+        </div>
+
+        <!-- ===== PROJECT GRID ===== -->
+        <div class="work-container grid">
+
+          <!-- EDITS -->
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_00_21.Still001.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Teaser~1</h3>
+              <p class="work-description">Cinematic edit project.</p>
+              <a href="#" class="work-link" data-video="assets/Video/TEASER-1.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_00_18.Still002.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Diwali~2K25</h3>
+              <p class="work-description">Montage Edit.</p>
+              <a href="#" class="work-link" data-video="assets/Video/Mashup~25.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_02_22.Still003.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Project~T</h3>
+              <p class="work-description">Velocity Edit.</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-T.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_21_27.Still004.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Teaser~2</h3>
+              <p class="work-description">Cinematic Teaser.</p>
+              <a href="#" class="work-link" data-video="assets/Video/Teaser-2.mp4">View Project <i
+                  class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_30_28.Still005.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Project~B</h3>
+              <p class="work-description">Linear Edit.</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-BHANU.mp4">View Project <i
+                  class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/1125.00_00_06_23.Still006.jpg" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Project~V</h3>
+              <p class="work-description">Linear Edit (Both girls potrayed in clip are one single person BTW).</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-V.mp4">View Project <i
+                  class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix edits">
+            <div class="work-card">
+              <img src="assets/img/WhatsApp Image 2025-09-08 at 19.36.34_3496fc15.jpg" class="work-img" loading="lazy">
+              <h4 class="work-category">Edits</h4>
+              <h3 class="work-title">Project~K</h3>
+              <p class="work-description">Speed ramps refined with color grade.</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-BHATI.mp4">View Project <i
+                  class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+
+          <!-- MOGRAPHS -->
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Mashup~25.00_00_23_29.Still002.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Project~M</h3>
+              <p class="work-description">High end animations with After Effects.</p>
+              <a href="#" class="work-link" data-video="assets/Video/cinematic animation.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Mashup~25.00_00_21_06.Still001.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Project~V2.0</h3>
+              <p class="work-description">Mograph REEL.</p>
+              <a href="#" class="work-link" data-video="assets/Video/Chandani.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Mashup~25.00_00_56_10.Still005.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Wedding Animation</h3>
+              <p class="work-description">Premium wedding invitations with AE & PR.</p>
+              <a href="#" class="work-link" data-video="assets/Video/WI.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Chaandani.00_00_09_25.Still003.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Project~H</h3>
+              <p class="work-description">Mograph REEL.</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-HARSHITA.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Chaandani.00_00_12_05.Still004.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Project~R</h3>
+              <p class="work-description">Photo Slideshow</p>
+              <a href="#" class="work-link" data-video="assets/Video/project-QUILL.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Chaandani.00_00_05_05.Still005.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Animation~1</h3>
+              <p class="work-description">Wedding Caricature Invitation.</p>
+              <a href="#" class="work-link" data-video="assets/Video/Wedding-1.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix mographs">
+            <div class="work-card">
+              <img src="assets/img/Chaandani.00_00_27_09.Still006.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Mo-Graphs</h4>
+              <h3 class="work-title">Animation~2</h3>
+              <p class="work-description">Photo merged invitation.</p>
+              <a href="#" class="work-link" data-video="assets/Video/Jubilee.mp4">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <!-- DEVELOPMENT -->
+          <article class="mix development">
+            <div class="work-card">
+              <img src="assets/img/img-45.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Development</h4>
+              <h3 class="work-title">Explore</h3>
+              <p class="work-description">Responsive website.</p>
+              <a href="https://github.com/diwanshu-XT/Diwanshu-Portfolio.git" class="work-link">View Project <i
+                  class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <!-- OTHERS -->
+
+          <article class="mix others">
+            <div class="work-card">
+              <img src="assets/img/BOOK SHORT.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Others</h4>
+              <h3 class="work-title">Book Mockup</h3>
+              <p class="work-description">One click editable mockups</p>
+              <a href="#" class="work-link" data-image="assets/img/IMG-89.webp">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+          <article class="mix others">
+            <div class="work-card">
+              <img src="assets/img/long book.webp" class="work-img" loading="lazy">
+              <h4 class="work-category">Others</h4>
+              <h3 class="work-title">Book Mockup</h3>
+              <p class="work-description">Creative graphic design.</p>
+              <a href="#" class="work-link" data-image="assets/img/long book.webp">
+                View Project <i class="ri-arrow-right-line work-icon"></i></a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--================================================================= CONTACT =================================================================================================-->
+
+    <section class="contact section" id="contact">
+      <div class="contact-container container grid">
+        <div class="contact-group">
+          <h2 class="section-title contact-section-title">
+            Let's Talk About <br />
+            Your Project
+          </h2>
+
+          <div class="contact-data grid">
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-mail-open-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">E-mail</h3>
+                <p class="contact-description">diwanshukashyap2004@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-phone-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">Phone</h3>
+                <p class="contact-description">+91 9460241245</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">
+                <i class="ri-instagram-fill"></i>
+              </span>
+
+              <div>
+                <h3 class="contact-title">Instagram</h3>
+                <p class="contact-description">
+                  <a href="https://www.instagram.com/diwanshu_xt?igsh=MW13NDFnamt3aDc3ZQ==" target="_blank"
+                    rel="noopener noreferrer" class="contact-link">diwanshu_xt</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact-form grid" id="contact-form">
+          <div class="contact-form-div">
+            <label for="" class="contact-label">Name</label>
+            <input type="text" name="name" class="contact-input" id="contact-name" />
+          </div>
+
+          <div class="contact-form-div">
+            <label for="" class="contact-label">E-mail</label>
+            <input type="email" name="email" class="contact-input" id="contact-email" />
+          </div>
+
+          <div class="contact-form-div">
+            <label for="" class="contact-label">Message</label>
+            <textarea name="message" class="contact-input contact-area" id="contact-message"></textarea>
+          </div>
+
+          <p class="contact-message" id="message"></p>
+
+          <button type="submit" class="button contact-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!--================================================================== FOOTER =================================================================================================-->
+
+  <footer class="footer">
+    <div class="footer-container container">
+      <p class="footer-copyright">© 2026 <span>XT-animations</span>. All Rights Reserved
+      </p>
+
+      <p class="footer-copyright">Developed by <span>Diwanshu Kashyap</span></p>
+    </div>
+  </footer>
+
+  <!--=================================================================== GSAP =================================================================================================-->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+  <!--=============== MEDIA MODAL ===============-->
+  <div class="video-modal" id="video-modal" aria-hidden="true">
+    <div class="video-modal-content" role="dialog" aria-modal="true" aria-label="Project preview">
+      <button class="video-modal-close" id="video-modal-close" aria-label="Close preview">×</button>
+      <video class="video-modal-player" id="video-modal-player" controls playsinline></video>
+      <img class="image-modal-player" id="image-modal-player" alt="" />
+    </div>
+  </div>
+  <!--=============== COUNT-UP ===============-->
+  <script type="module"
+    src="https://cdn.jsdelivr.net/gh/lekoala/formidable-elements@master/dist/count-up.min.js"></script>
+
+  <!--=============== MIXITUP ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <!--=============== SCROLL REVEAL ===============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
